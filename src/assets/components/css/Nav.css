@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #90b9d6;
+    position: absolute;
+    left: 1rem;
+    top: 0;
+    width: 90vw;
+    height: max-content;
+}
+.menu{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 8px;
+    padding: 0;
+    width: 90%;
+}
+
+.menu-item{
+    list-style: none;
+    padding: 2px;
+}
+
+a{
+    color: darkred;
+    text-decoration: none;
+}
