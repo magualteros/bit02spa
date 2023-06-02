@@ -1,0 +1,38 @@
+.l-login{
+    color: beige;
+    width: 100%;
+    font-size: large;
+}
+
+.i-login{
+    outline: none;
+    font-size: large;
+    width: 100%;
+    height: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.submit{
+    border: none;
+    width: max-content;
+    height: 2rem;
+    font-size: medium;
+    padding: .5rem;
+    margin-right: 1rem;
+    background-color: seagreen;
+    cursor: pointer;
+}
+
+.reset{
+    border: none;
+    width: max-content;
+    height: 2rem;
+    font-size: medium;
+    padding: .5rem;
+    margin-right: 1rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}

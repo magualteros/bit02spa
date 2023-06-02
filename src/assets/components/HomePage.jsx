@@ -1,14 +1,14 @@
-
+import './css/Home.css';
 
 export const HomPage = () => {
     return (
         <main className="home-container">
-            <section>
-
-            </section>
-            <aside>
+            <section className="image-section">
                 
-            </aside>
+            </section>
+            <section className="cards-section"> 
+                
+            </section>
         </main>
     );
 };

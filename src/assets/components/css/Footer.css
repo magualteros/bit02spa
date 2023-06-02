@@ -6,11 +6,12 @@
 
 footer{
     display: block;
+    position:relative;
     width: 100%;
-    margin-top: 2rem;
-    align-items: center;
+    margin: auto;
     background-color: darkslategray;
-    padding: 4px 0;
+    padding: 2px 0;
+    margin-bottom: 0;
 }
 
 .list-footer{

@@ -3,12 +3,14 @@
     padding: 0;
 }
 nav{
-    background-color: #90b9d6;
-    position: absolute;
-    left: 1rem;
+    background-color:white;
+    position: fixed;
+    display: flex;
+    margin: auto;
     top: 0;
     width: 90vw;
     height: max-content;
+    border: 2px solid white;
 }
 .menu{
     position: relative;
@@ -18,14 +20,36 @@ nav{
     margin: 8px;
     padding: 0;
     width: 90%;
+
 }
 
 .menu-item{
+    display: grid;
+    align-items: center;
     list-style: none;
     padding: 2px;
 }
 
-a{
+.menu-item:hover{
+    background-color:rgba(7, 75, 7, 0.781);
+}
+.menu-item a{
     color: darkred;
     text-decoration: none;
+}
+
+.menu-item a:hover{
+    color: whitesmoke;
+}
+
+.btn-nav{
+    background-color: transparent;
+    border:none;
+    font-size: medium;
+    color: darkred;
+    cursor: pointer;
+}
+
+.btn-nav:hover{
+    background-color: white;
 }

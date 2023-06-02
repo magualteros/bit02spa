@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.form-main{
+    padding-top: 4rem; 
+    margin: auto;
+    max-width: 100%;
+    height: 95vh;
+}
+
+.section-form{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin:auto;
+    height:max-content;
+    padding: 4rem 2rem;
+    box-shadow: 0 3px 3px #252729b0;
+    background-color: #3d4349;
+}
+
+.l-register{
+    color: beige;
+    width: 100%;
+    font-size: large;
+}
+
+.i-register{
+    outline: none;
+    font-size: large;
+    width: 100%;
+    height: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
