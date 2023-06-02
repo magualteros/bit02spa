@@ -7,7 +7,8 @@ import { FooterPage } from './assets/components/FooterPage';
 import { HomPage } from './assets/components/HomePage';
 import { LoginPage } from './assets/components/LoginPage';
 import { ProductList } from './assets/components/ProductList';
-import{Store} from './assets/components/Store'
+import { Store } from './assets/components/Store'
+import {Error} from './assets/components/Error'
 
 function App() {
 
@@ -52,7 +53,7 @@ function App() {
           />} />
         <Route path='/bit02spa/register' element={<RegisterPage setIsRegister={setIsRegister}/>} />
         <Route path='/bit02spa/login' element={<LoginPage setIsRegister={setIsRegister} />} />
-        <Route path='*' element={<></>}/>
+        <Route path='*' element={<Error/>}/>
       </Routes>
       <FooterPage/>
     </BrowserRouter>
