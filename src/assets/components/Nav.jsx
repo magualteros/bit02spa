@@ -35,7 +35,8 @@ export const Nav = (
     };
     
     const onPayment = () => {
-        alert(`Procesando medios de pago ${total}`);
+		alert(`Gracias Por la compra!!!
+		 Total: ${total}`);
         onCleanCart();
     }
 
