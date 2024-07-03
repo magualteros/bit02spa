@@ -14,7 +14,7 @@ export const Nav = (
         setCountProducts,
         setTotal,
     }) => {
-    const [active, setActive] = useState(false);
+     const [active, setActive] = useState(false);
      let isSesion = null;
      const navigate = useNavigate();
 

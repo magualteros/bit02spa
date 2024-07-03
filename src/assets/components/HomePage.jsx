@@ -26,9 +26,9 @@ export const HomPage = () => {
             </section>
             <section className="images-section"> 
                 
-                    <button onClick={previous}>{'<'}</button>
-                    <img src={`bit02spa/src/assets/components/images/${imgSelect}`} alt="image_products" />
-                    <button onClick={nextImg}>{'>'}</button>
+                    <button onClick={previous}>{'<<'}</button>
+                    <img src={`bit02spa/src/public/images/${imgSelect}`} alt="image_products" />
+                    <button onClick={nextImg}>{'>>'}</button>
 
             </section>
         </main>

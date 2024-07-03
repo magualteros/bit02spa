@@ -13,7 +13,7 @@ import {Error} from './assets/components/Error'
 function App() {
 
   const [isRegister, setIsRegister] = useState(false);
-  const [isLogued, setIsLogued] = useState(false);
+  //const [isLogued, setIsLogued] = useState(false);
   const [allProducts, setAllProducts] = useState([]);
 	const [total, setTotal] = useState(0);
 	const [countProducts, setCountProducts] = useState(0);
